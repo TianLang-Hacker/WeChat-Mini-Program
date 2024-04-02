@@ -1,0 +1,19 @@
+<!--index.wxml-->
+<!-- <navigation-bar title="Weixin" back="{{false}}" color="black" background="#FFF"></navigation-bar> -->
+<!-- <scroll-view class="scrollarea" scroll-y type="list">
+  <view class="container">
+    Weixin
+  </view>
+</scroll-view> -->
+
+<video src="https://www.bilibili.com/video/BV1J4411v7g6/" loop="true" autoplay="true">
+视频2
+</video>
+<form>
+<button>普通按钮</button>
+<button type="default">主色调按钮</button>
+<button type="warn">警告按钮</button>
+<button plain="true">镂空按钮</button>
+<button disabled="true">禁用按钮</button>
+<button size="mini">小按钮</button>
+</form>
