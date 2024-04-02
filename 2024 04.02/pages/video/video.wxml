@@ -1,0 +1,20 @@
+<!--pages/video/video.wxml-->
+<!-- <text>pages/video/video.wxml</text> -->
+
+<view class="video">
+    <view class="video-title">标题：6</view>
+    <view class="video-time">拍摄日期：1145-01-04</view>
+    <video src="http://127.0.0.1:3000/04.mp4" object-fit="fill"></video>
+</view>
+
+<view class="video">
+    <view class="video-title">标题：6</view>
+    <view class="video-time">拍摄日期：1145-01-04</view>
+    <video src="https://www.bilibili.com/video/BV1J4411v7g6/" object-fit="fill"></video>
+</view>
+
+<view class="video">
+    <view class="video-title">标题：6</view>
+    <view class="video-time">拍摄日期：1145-01-04</view>
+    <video src="https://www.bilibili.com/video/BV1J4411v7g6/" object-fit="fill"></video>
+</view>

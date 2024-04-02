@@ -1,0 +1,36 @@
+<!--pages/guest/guest.wxml-->
+<!-- <text>pages/guest/guest.wxml</text> -->
+<image class="bg" src="/images/bj_2.png" />
+<form>
+    <view class="content">
+        <!-- 姓名 -->
+        <view class="input">
+            <input name="name" placeholder-class="phcolor" placeholder="输入姓名" />
+        </view>
+        <!-- 手机号码 -->
+        <view class="input">
+            <input name="phone" placeholder-class="phcolor" placeholder="输入手机号" />
+        </view>
+        <!-- 性别 -->
+        <view class="radio">
+            <text>选择你的性别</text>
+            <radio-group>
+                <radio>武装直升机</radio>
+                <radio>沃尔玛购物袋</radio>
+            </radio-group>
+        </view>
+        <!-- 需要的点心 -->
+        <view class="check">
+            <text>请选择你需要的点心</text>
+            <checkbox-group>
+                <checkbox>钢筋</checkbox>
+                <checkbox>铁钉</checkbox>
+                <checkbox>水泥</checkbox>
+                <checkbox>黄砂</checkbox>
+                <checkbox>红砖</checkbox>
+                <checkbox>沥青</checkbox>
+            </checkbox-group>
+        </view>
+        <button>提交</button>
+    </view>
+</form>
