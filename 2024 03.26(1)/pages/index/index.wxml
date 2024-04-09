@@ -1,0 +1,29 @@
+<page-meta>
+
+
+<form>
+<button>普通按钮</button>
+<button type="primary">主色调按钮</button>
+<button type="warn">警告按钮</button>
+<button plain="true">镂空按钮</button>
+<button disabled="true">禁用按钮</button>
+<button size="mini">小按钮</button>
+<input type="text" />
+<input type="number" />
+
+<checkbox-group>
+    <checkbox>蛋糕</checkbox>
+    <checkbox>甜甜圈</checkbox>
+    <checkbox>巧克力</checkbox>
+</checkbox-group>
+
+<radio-group>
+    <radio>男</radio>
+    <radio>女</radio>
+</radio-group>
+
+</form>
+<!-- <video src="http://127.0.0.1:3000/01.mp4" loop="true" autoplay="true">
+视频
+</video> -->
+</page-meta>

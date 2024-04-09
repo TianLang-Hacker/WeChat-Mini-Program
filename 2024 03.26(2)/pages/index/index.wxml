@@ -1,0 +1,46 @@
+<!--index.wxml-->
+<!-- <navigation-bar title="Weixin" back="{{false}}" color="black" background="#FFF"></navigation-bar> -->
+<!-- <scroll-view class="scrollarea" scroll-y type="list">
+  <view class="container">
+    Weixin
+  </view>
+</scroll-view> -->
+
+<image class="bg" src="/images/bg_1.png" />
+<view class="content">
+  <!-- 顶部图片 -->
+
+  <image class="content-git" src="/images/save_the_date.gif" />
+  <!-- 标题 -->
+
+  <view class="content-title">邀请函</view>
+  <!-- 合照 -->
+
+  <view class="content-avatar">
+    <image src="/images/avatar.png" />
+  </view>
+
+  <!-- 新郎新娘姓名 -->
+  <view class="content-info">
+    <view class="content-name">
+      <image src="/images/tel.png" />
+      <view>蔡徐坤</view>
+      <view>新郎</view>
+    </view>
+    <view class="content-wedding">
+      <image src="/images/wedding.png" />
+    </view>
+    <view class="content-name">
+      <image src="/images/tel.png" />
+      <view>Tsai Xukun</view>
+      <view>新娘</view>
+    </view>
+  </view>
+
+  <!-- 婚礼信息 -->
+  <view class="content-address">
+    <view>给老子过来</view>
+    <view>时间: 1145年11月4日</view>
+    <view>地点: 下北泽114514号1919810街野兽先辈家</view>
+  </view>
+</view>
