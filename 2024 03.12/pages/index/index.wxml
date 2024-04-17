@@ -1,0 +1,25 @@
+<!--index.wxml-->
+<navigation-bar title="6" back="{{false}}" color="black" background="#CCC"></navigation-bar>
+
+<!-- <scroll-view class="scrollarea" scroll-y type="list">
+  <view class="container">
+    你干嘛~哈哈~哎哟~
+  </view>
+</scroll-view> -->
+<view>
+<!-- 头像区域 -->
+<view class="top">
+<view class="user-img">
+  <image class="" src="/images/6.png" />
+
+</view>
+</view>
+<!-- 详细信息区域 -->
+<view class="menu">
+<view class="item">姓名：蔡徐坤</view>
+<view class="item">年龄：两年半</view>
+<view class="item">性别：秀吉</view>
+<view class="item">特长：铁山靠</view>
+<view class="item">爱好：鸡叫</view>
+</view>
+</view>
