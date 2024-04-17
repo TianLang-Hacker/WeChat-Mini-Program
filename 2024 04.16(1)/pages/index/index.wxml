@@ -1,0 +1,9 @@
+<!--index.wxml-->
+<navigation-bar title="Weixin" back="{{false}}" color="black" background="#FFF"></navigation-bar>
+<scroll-view class="scrollarea" scroll-y type="list">
+  <view bindtap="demo" data-name="小程序" data-age="6">
+    获取姓名年龄
+  </view>
+  <view>姓名：{{name}}</view>
+  <view>年龄：{{age}}</view>
+</scroll-view>
