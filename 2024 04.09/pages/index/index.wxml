@@ -1,0 +1,17 @@
+<!--index.wxml-->
+<navigation-bar title="6" back="{{false}}" color="black" background="#FFF"></navigation-bar>
+  <view>
+    <text>输入第一个数字：</text>
+    <input type="number" bindinput="num1Input" />
+  </view>
+
+  <view>
+    <text>输入第二个数字：</text>
+    <input type="number" bindinput="num2Input" />
+  </view>
+
+  <button bindtap="compare" class="bg text" >比较</button>
+
+  <view>
+    <text wx:if="{{result}}">比较结果：{{result}}</text>
+  </view>
